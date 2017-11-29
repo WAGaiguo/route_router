@@ -13,6 +13,13 @@
 		1E37FC141FC69EE2008A3949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37FC131FC69EE2008A3949 /* Assets.xcassets */; };
 		1E37FC171FC69EE2008A3949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37FC151FC69EE2008A3949 /* LaunchScreen.storyboard */; };
 		1E37FC1A1FC69EE2008A3949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37FC191FC69EE2008A3949 /* main.m */; };
+		1E37FC251FC69FDD008A3949 /* RouterAndRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37FC231FC69FDC008A3949 /* RouterAndRoutes.m */; };
+		1E37FC291FC7CB4E008A3949 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E37FC271FC7CB4E008A3949 /* getgateway.c */; };
+		1E37FC2D1FC7E9BA008A3949 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E37FC2C1FC7E9BA008A3949 /* SystemConfiguration.framework */; };
+		1EB90AC01FCD17B30081F759 /* NetworkInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB90ABF1FCD17B30081F759 /* NetworkInformation.m */; };
+		1EB90AC41FCD41220081F759 /* NetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB90AC31FCD41220081F759 /* NetState.m */; };
+		1EB90AC81FCD478C0081F759 /* WAGview.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB90AC71FCD478C0081F759 /* WAGview.m */; };
+		1EB90ACA1FCD47AA0081F759 /* WAGview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB90AC91FCD47AA0081F759 /* WAGview.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		1E37FC161FC69EE2008A3949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E37FC181FC69EE2008A3949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E37FC191FC69EE2008A3949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E37FC211FC69FB8008A3949 /* RouterAndRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterAndRoutes.h; sourceTree = "<group>"; };
+		1E37FC231FC69FDC008A3949 /* RouterAndRoutes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterAndRoutes.m; sourceTree = "<group>"; };
+		1E37FC261FC7C8D9008A3949 /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		1E37FC271FC7CB4E008A3949 /* getgateway.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
+		1E37FC281FC7CB4E008A3949 /* getgateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
+		1E37FC2C1FC7E9BA008A3949 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1EB90ABE1FCD17B30081F759 /* NetworkInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkInformation.h; sourceTree = "<group>"; };
+		1EB90ABF1FCD17B30081F759 /* NetworkInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkInformation.m; sourceTree = "<group>"; };
+		1EB90AC21FCD41220081F759 /* NetState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetState.h; sourceTree = "<group>"; };
+		1EB90AC31FCD41220081F759 /* NetState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetState.m; sourceTree = "<group>"; };
+		1EB90AC61FCD478C0081F759 /* WAGview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGview.h; sourceTree = "<group>"; };
+		1EB90AC71FCD478C0081F759 /* WAGview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGview.m; sourceTree = "<group>"; };
+		1EB90AC91FCD47AA0081F759 /* WAGview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAGview.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E37FC2D1FC7E9BA008A3949 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,7 @@
 			children = (
 				1E37FC091FC69EE1008A3949 /* some_git_test */,
 				1E37FC081FC69EE1008A3949 /* Products */,
+				1E37FC2B1FC7E9BA008A3949 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +80,12 @@
 		1E37FC091FC69EE1008A3949 /* some_git_test */ = {
 			isa = PBXGroup;
 			children = (
+				1EB90AC51FCD47340081F759 /* view */,
+				1EB90AC11FCD40FB0081F759 /* netstate */,
+				1EB90ABD1FCD17690081F759 /* network */,
+				1E37FC2A1FC7E48E008A3949 /* route */,
+				1E37FC211FC69FB8008A3949 /* RouterAndRoutes.h */,
+				1E37FC231FC69FDC008A3949 /* RouterAndRoutes.m */,
 				1E37FC0A1FC69EE2008A3949 /* AppDelegate.h */,
 				1E37FC0B1FC69EE2008A3949 /* AppDelegate.m */,
 				1E37FC0D1FC69EE2008A3949 /* ViewController.h */,
@@ -69,6 +97,52 @@
 				1E37FC191FC69EE2008A3949 /* main.m */,
 			);
 			path = some_git_test;
+			sourceTree = "<group>";
+		};
+		1E37FC2A1FC7E48E008A3949 /* route */ = {
+			isa = PBXGroup;
+			children = (
+				1E37FC261FC7C8D9008A3949 /* route.h */,
+				1E37FC271FC7CB4E008A3949 /* getgateway.c */,
+				1E37FC281FC7CB4E008A3949 /* getgateway.h */,
+			);
+			path = route;
+			sourceTree = "<group>";
+		};
+		1E37FC2B1FC7E9BA008A3949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E37FC2C1FC7E9BA008A3949 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EB90ABD1FCD17690081F759 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				1EB90ABE1FCD17B30081F759 /* NetworkInformation.h */,
+				1EB90ABF1FCD17B30081F759 /* NetworkInformation.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		1EB90AC11FCD40FB0081F759 /* netstate */ = {
+			isa = PBXGroup;
+			children = (
+				1EB90AC21FCD41220081F759 /* NetState.h */,
+				1EB90AC31FCD41220081F759 /* NetState.m */,
+			);
+			path = netstate;
+			sourceTree = "<group>";
+		};
+		1EB90AC51FCD47340081F759 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1EB90AC61FCD478C0081F759 /* WAGview.h */,
+				1EB90AC71FCD478C0081F759 /* WAGview.m */,
+				1EB90AC91FCD47AA0081F759 /* WAGview.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +205,7 @@
 			files = (
 				1E37FC171FC69EE2008A3949 /* LaunchScreen.storyboard in Resources */,
 				1E37FC141FC69EE2008A3949 /* Assets.xcassets in Resources */,
+				1EB90ACA1FCD47AA0081F759 /* WAGview.xib in Resources */,
 				1E37FC121FC69EE2008A3949 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +219,11 @@
 			files = (
 				1E37FC0F1FC69EE2008A3949 /* ViewController.m in Sources */,
 				1E37FC1A1FC69EE2008A3949 /* main.m in Sources */,
+				1E37FC291FC7CB4E008A3949 /* getgateway.c in Sources */,
+				1EB90AC01FCD17B30081F759 /* NetworkInformation.m in Sources */,
+				1E37FC251FC69FDD008A3949 /* RouterAndRoutes.m in Sources */,
+				1EB90AC41FCD41220081F759 /* NetState.m in Sources */,
+				1EB90AC81FCD478C0081F759 /* WAGview.m in Sources */,
 				1E37FC0C1FC69EE2008A3949 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J3D27HWQC;
 				INFOPLIST_FILE = some_git_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2017.11.23.14.14.some-git-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J3D27HWQC;
 				INFOPLIST_FILE = some_git_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wangaiguo.2017.11.23.14.14.some-git-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
